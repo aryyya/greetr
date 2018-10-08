@@ -4,8 +4,8 @@
 
 module Main where
 
-import System.Environment
-import System.Exit
+import System.Environment(getArgs)
+import System.Exit(exitFailure)
 
 main :: IO ()
 main = do
