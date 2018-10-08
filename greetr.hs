@@ -16,7 +16,7 @@ main = do
 
 checkArgs :: Foldable t => t a -> IO ()
 checkArgs args =
-  if (length args) > 0
+  if length args > 0
     then
       return ()
     else do
