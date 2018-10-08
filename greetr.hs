@@ -1,6 +1,6 @@
--- Greetr - Greet someone on the command line!
+-- Greetr - Greet someone on the command-line!
 -- Compile and execute with:
--- $ ghc greetr.hs -o greetr && ./greetr Jane
+--   $ ghc greetr.hs -o greetr && ./greetr Jane
 
 module Main where
 
